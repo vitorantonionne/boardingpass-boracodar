@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,57 +17,63 @@
         <div class="fligth-info">
             <div class="infos">
                     <div class="number">
-                        <p>Voo</p>
+                        <p class="data-infos">Voo</p>
                         <p>RS995</p>
                     </div>
                     <div class="date">
-                        <p>Data</p>
+                        <p class="data-infos" id="dater">Data</p>
                         <p>23/05/2023</p>
                     </div>
             </div>
             <div class="destiny">
                 <div class="airport">
-                    <p>São Paulo, Brasil</p>
-                    <p>GRU</p>
+                    <p class="data-infos">São Paulo, Brasil</p>
+                    <p class="airpo">GRU</p>
                     <p>17:00</p>
                 </div>
+                <div class="img">
+                    <img src="assets/plane.svg" alt="icone de um avião">
+                </div>
                 <div class="arrival">
-                    <p>São Francisco, EUA</p>
-                    <p>SFO</p>
-                    <p>04:48 <span>+1</span></p>
+                    <p class="data-infos">São Francisco, EUA</p>
+                    <p class="airpo" id="airpor">SFO</p>
+                    <div class="spa">
+                        <p>04:48</p>
+                        <span>+1</span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="passenger">
             <div class="name">
-                <p>Passageiro</p>
+                <p class="data-infos">Passageiro</p>
                 <p>Jose Silva</p>
             </div>
             <div class="seat">
-                <p>Assento</p>
+                <p class="data-infos">Assento</p>
                 <p>28A</p>
             </div>
         </div>
         <div class="validation">
             <div class="validation-info">
                 <div class="time">
-                        <p>Embarque</p>
+                        <p class="data-infos">Embarque</p>
                         <div class="hours">
                             <p>16:15</p>
                         </div>
                 </div>
                 <div class="embarque">
-                    <p>Terminal</p>
+                    <p class="data-infos">Terminal</p>
                     <p>2</p>
                 </div>
                 <div class="gate">
-                    <p>Portão</p>
+                    <p class="data-infos">Portão</p>
                     <p>15</p>
                 </div>
             </div>
             <div class="qrcode">
                 <img src="assets/qr-code.svg" alt="qr code boarding">
-                <p>Grupo de embarque:3</p>
+                <p class="data-infos">Grupo de embarque:3</p>
             </div>
             <div class="atencion">
                 <p>Atenção:o portão fecha 16:45</p>

@@ -1,0 +1,105 @@
+@charset "UTF-08";
+
+/*
+font-family: 'Rubik', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+    display: grid;
+    place-content: center;
+    background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+
+    height: 100%;
+}
+
+#pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.fligth-info,
+.passenger,
+.validation {
+    background-color: #FFFFFF;
+    padding: 24px 32px;
+    border-radius: 24px;
+}
+
+.data-infos {
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 14px;
+}
+
+#dater {
+    text-align: right;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.number,
+.date {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.destiny {
+    display: flex;
+    align-items: center;
+}
+
+.airpo {
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#airpor {
+    text-align: right;
+}
+
+.airport,
+.arrival {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+}
+
+.airport {
+    padding-right: 16.5px;
+}
+
+.spa {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spa span {
+    font-weight: 500;
+    font-size: 10px;
+}
